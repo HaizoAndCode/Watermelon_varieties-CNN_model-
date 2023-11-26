@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow import keras
 import io  # импортировать модуль io для работы с потоками байтов
 
-bot = telebot.TeleBot('6906086160:AAET9OvJdYRF5P-jmhV4eBEOjSsqaSD1tno')
+bot = telebot.TeleBot('token_your_bot')
 model = keras.models.load_model('my_model.keras')
 
 @bot.message_handler(content_types=['photo'])
