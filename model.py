@@ -4,10 +4,6 @@ from tensorflow.keras import layers, models
 import os
 from PIL import Image
 import numpy as np
-import warnings
-warnings.filterwarnings("ignore", message="The name tf.ragged.RaggedTensorValue is deprecated")
-warnings.filterwarnings("ignore", message="The name tf.executing_eagerly_outside_functions is deprecated")
-
 
 data_dir = r"Путь_к_data"
 
