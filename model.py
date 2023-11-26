@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore", message="The name tf.ragged.RaggedTensorValue 
 warnings.filterwarnings("ignore", message="The name tf.executing_eagerly_outside_functions is deprecated")
 
 
-data_dir = r"C:\\Users\\tihon\\OneDrive\\Рабочий стол\\Watermelon_varieties1\\data"
+data_dir = r"Путь_к_data"
 
 # Получаем список подпапок (классов)
 classes = os.listdir(data_dir)
